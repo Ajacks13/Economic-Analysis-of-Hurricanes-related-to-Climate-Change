@@ -21,7 +21,7 @@ names=['Year','Land_Month','Land_Day','Land_Year','End_Month','End_Day','End_Yea
        'End_NDWI','End_Val','Tot_Val']
 
 #taken from the database schema
-desktop_location = 'C:\\Users\\19083\\Desktop\\GradSchool\\Research\\AI-Economic-Climate Change\\RNNIntDBNoSchema.csv' #the location of the file with the actual data
+desktop_location =  #the location of the file with the actual data (data should be a CSV file)
 dataset=pd.read_csv(desktop_location,names=names)
 dataset.fillna(0, inplace=True)
 dataset.replace(numpy.nan,0)
