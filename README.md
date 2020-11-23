@@ -1,2 +1,2 @@
 # Economic-Analysis-of-Hurricanes-related-to-Climate-Change
-A beta code used to analyze the economic impact of hurricanes on the Northeast. The code uses recurrent neural networks primarily
+This code was a python code that makes use of different packages to implement machine learning to predict the economic impact of hurricanes on the Northeast. This code makes use of different packages to implement a recurrent neural network. This code is a beta build to prove proof of concept and needs to be further improved. It will run but the metric by which it is judged (root mean square error will be low and not passable for any real use i.e. <50%). Improvements will focus on improving the score through data collection, network improvement, and implementation of hyper-paremeters
